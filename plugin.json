@@ -1,0 +1,13 @@
+{
+      "name":"LogGenerateSample",
+      "version": "0.0.1",
+      "description":"Test Config",
+      "namespace":"LogGenerateSample",
+      "author":"Cristi C",
+      "type":"template",
+      "serviceProvider":"LogGenerateSample\\Providers\\LogGenerateSampleServiceProvider",
+      "runOnBuild"        :[
+            "LogGenerateSample\\Migrations\\CreateLogTable",
+            "LogGenerateSample\\Migrations\\CreateFailedMigration"
+      ]
+}
