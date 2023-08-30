@@ -8,6 +8,7 @@
       "serviceProvider":"LogGenerateSample\\Providers\\LogGenerateSampleServiceProvider",
       "runOnBuild"        :[
             "LogGenerateSample\\Migrations\\LogTableInit",
+            "LogGenerateSample\\Migrations\\LogTableRecreate",
             "LogGenerateSample\\Migrations\\CreateFailedMigration"
       ]
 }
